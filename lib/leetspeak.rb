@@ -1,7 +1,7 @@
 class String
   def leetspeak
-    self.tr('e', '3')
-    # self.tr('o', '0')
+    leet_word = self.tr('e, o', '3, 0')
+
 
     # string_array = []
     # string_array.push(sentence)
