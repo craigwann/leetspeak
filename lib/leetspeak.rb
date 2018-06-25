@@ -1,6 +1,6 @@
 class String
   def leetspeak
-    leet_word = self.tr('e, o, I,', '3, 0, 1')
+    leet_word = self.tr('e, o, I, s', '3, 0, 1, z')
 
 
     # string_array = []
