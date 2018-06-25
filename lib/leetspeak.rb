@@ -1,11 +1,14 @@
 class String
   def leetspeak
+    self.tr('e', '3')
 
     # string_array = []
     # string_array.push(sentence)
-"happy"
+
   end
 end
+
+
 #
 # def leetspeak(word)
 #   reversed_string = self.reverse()
