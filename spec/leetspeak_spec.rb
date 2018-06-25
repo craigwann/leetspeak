@@ -18,7 +18,10 @@ describe('String#leetspeak') do
     expect("boo boo".leetspeak).to(eq("b00 b00"))
   end
   it('replaces every I in a string with a 1') do
-    expect("Icky Icky Ichab0d".leetspeak).to(eq("1cky 1cky 1chab0d"))
+    expect("Icky Icky Ichabod".leetspeak).to(eq("1cky 1cky 1chab0d"))
+  end
+  it('replaces every I in a string with a 1') do
+    expect("roses".leetspeak).to(eq("r0z3z"))
   end
 end
 
